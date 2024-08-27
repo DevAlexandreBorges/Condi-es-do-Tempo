@@ -66,3 +66,13 @@ main #tempo-info .tempo-dados span {
   font-size: 3rem;
   font-weight: bold;
 }
+
+@media (max-width: 400px) {
+  main > h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  main {
+    max-width: 400px;
+  }
+}
