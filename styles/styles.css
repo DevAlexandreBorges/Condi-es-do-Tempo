@@ -70,9 +70,20 @@ main #tempo-info .tempo-dados span {
 @media (max-width: 400px) {
   main > h1 {
     font-size: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
   }
   main {
-    max-width: 400px;
+    max-width: 350px;
+    padding: 1rem;
+  }
+
+  main #search-form form {
+    gap: 0.5rem;
+    width: 80%;
+    margin-left: -10px;
+  }
+
+  main #search-form button {
+    font-size: 12px;
   }
 }
